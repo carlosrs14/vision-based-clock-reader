@@ -6,6 +6,10 @@ Este proyecto implementa un algoritmo de visión por computadora para leer la ho
 
 El sistema sigue un proceso de varios pasos para aislar las manecillas del reloj y determinar su posición angular.
 
+## 0. Imagen de ejemplo
+![Imagen Inicial](assets/img_source_1400.png)
+
+
 ### 1. Cálculo del Promedio (Media)
 Para poder identificar qué partes de la imagen son las manecillas, primero necesitamos saber cómo se ve el reloj vacío. El algoritmo carga una base de datos de imágenes de relojes y calcula el promedio de cada píxel. 
 
